@@ -1,0 +1,20 @@
+.container {
+  transition: all 0.3s ease-in-out;
+}
+
+.card-transform {
+  transition: transform 0.2s;
+}
+
+.card-transform:hover {
+  transform: scale(1.05);
+}
+
+.chart-transform {
+  opacity: 0;
+  transition: opacity 0.5s ease;
+}
+
+.chart-visible {
+  opacity: 1;
+}
